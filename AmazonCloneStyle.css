@@ -76,13 +76,15 @@
     color: #0f1111;
     margin-right: 25px;
 }
+.nav-search :hover{
+    border: 2px solid orange;
+}
 .nav-flag{
     display: flex;
     height: 50px;
     width: 80px;
     align-items: center;
     justify-content: center;
-    border:1px white solid;
 }
 .flag{
     background-image: url(flag.png);
@@ -91,6 +93,43 @@
     height: 15px;
 }
 .lang-select{
-    background-color: black;
+    background-color: #0f1111;
     color: white;
+}
+.nav-signin{
+    height: 50px;
+    width: 180px;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.nav-signin{
+    justify-content: center;
+    align-content: center;
+}
+.signin{
+  font-size: 0.90rem;
+}
+.account-select{
+    background-color: #0f1111;
+    color: white;
+   font-size: 1rem;
+   font-weight: 700;
+}
+.nav-return{
+    justify-content: center;
+    align-content: center;
+    margin-left: 10px;
+    margin-right: 10px;
+    height: 50px;
+    width: 90px;
+}
+.return{
+    font-size: 0.70rem;
+}
+.order{
+    font-size: 1rem;
+    display: flex;
+    font-weight: 700;
 }
