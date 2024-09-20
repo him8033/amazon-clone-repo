@@ -74,4 +74,23 @@
     border-top-right-radius: 4px;
     border-bottom-right-radius: 4px;
     color: #0f1111;
+    margin-right: 25px;
+}
+.nav-flag{
+    display: flex;
+    height: 50px;
+    width: 80px;
+    align-items: center;
+    justify-content: center;
+    border:1px white solid;
+}
+.flag{
+    background-image: url(flag.png);
+    background-size: cover;
+    width: 20px;
+    height: 15px;
+}
+.lang-select{
+    background-color: black;
+    color: white;
 }
