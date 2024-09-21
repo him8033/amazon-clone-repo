@@ -172,3 +172,22 @@
     margin-top: 15px;
     margin-left: 5px;
 }
+/* panel Section Properties */
+.panel{
+    display: flex;
+    height: 40px;
+    background-color: #222f3d;
+    color: white;
+    align-items: center;
+    justify-content: space-evenly;
+}
+/* panel option paragraph property define */
+.panel-option p{
+    display:inline;
+    margin-left: 17px;
+}
+/* option bar remain or whole properties */
+.panel-option{
+width: 95%;
+font-size: 0.85rem;
+}
