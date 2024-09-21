@@ -1,9 +1,11 @@
+/* set web page default font margin and border */
 *{
     margin: 0;
     font-family: Arial;
     border: border-box;
 
 }
+/* desiging navbar properties */
 .navbar{
     height: 60px;
     background-color: #0f1111;
@@ -12,38 +14,45 @@
     align-items: center;
     justify-content: space-evenly;
 }
+/* design logo div height and width */
 .nav-logo{
    height: 50px;
    width: 100px;
 }
+/* set logo as a background image */
 .logo{
     background-image: url(logo.png);
     background-size: cover;
     height: 50px;
     width: 100%;
 }
+/* give the hover border effect property */
 .border{
     border: 2px solid transparent;
 
 }
+/* hover properties */
 .border:hover{
     border: 2px solid white;
 }
-/* box 2 */
+/* All select box in search bar  */
 .add-first{
     color: #cccccc;
     font-size: 0.85rem;
     margin-left: 18px;
 }
+/* search box in search bar */
 .add-sec{
     font-size: 1rem;
     margin-left: 3px;
 }
+/* search icon in search bar */
 .add-icon{
     display:flex;
     align-items: center;
     margin-left: 3px;
 }
+/* property of search bar */
 .nav-search{
     display: flex;
     justify-content: space-evenly;
@@ -52,6 +61,7 @@
     border-radius: 4px;
     margin-left: 20px;
 }
+/* Select bar properties */
 .search-select{
     background-color: #f3f3f3;
     width: 50px;
@@ -60,11 +70,13 @@
     border-bottom-left-radius: 4px;
     border: none;
 }
+/* Input bar properties in search bar */
 .search-input{
     width: 100%;
     font-size: 1rem;
     border: none;
 }
+/* search icon properties in search bar */
 .search-icon{
     width: 45px;
     display:flex;
@@ -77,9 +89,11 @@
     color: #0f1111;
     margin-right: 25px;
 }
+/* search bar orange hover effect */
 .nav-search :hover{
     border: 2px solid orange;
 }
+/* flag bar properties */
 .nav-flag{
     display: flex;
     height: 50px;
@@ -87,37 +101,39 @@
     align-items: center;
     justify-content: center;
 }
+/* flag icon set as background image */
 .flag{
     background-image: url(flag.png);
     background-size: cover;
     width: 20px;
     height: 15px;
 }
+/* language select bar property */
 .lang-select{
     background-color: #0f1111;
     color: white;
 }
+/* Sign in properties */
 .nav-signin{
     height: 50px;
     width: 180px;
-    align-items: center;
+    align-content: center;
     justify-content: center;
     margin-left: 10px;
     margin-right: 10px;
 }
-.nav-signin{
-    justify-content: center;
-    align-content: center;
-}
+/* sign in text size set */
 .signin{
   font-size: 0.90rem;
 }
+/* account selection properties */
 .account-select{
     background-color: #0f1111;
     color: white;
    font-size: 1rem;
    font-weight: 700;
 }
+/* Return bar div  properties */
 .nav-return{
     justify-content: center;
     align-content: center;
@@ -126,17 +142,21 @@
     height: 50px;
     width: 90px;
 }
+/* return txt size set */
 .return{
     font-size: 0.70rem;
 }
+/* order text property set */
 .order{
     font-size: 1rem;
     display: flex;
     font-weight: 700;
 }
+/* cart icon size set */
 .nav-cart i{
     font-size: 30px;
 }
+/* cart bar div properties */
 .nav-cart {
     font-size: 0.85rem;
     font-weight: 700;
@@ -147,6 +167,7 @@
     align-items: center;
 
 }
+/* Cart text margin set */
 .cart-txt{
     margin-top: 15px;
     margin-left: 5px;
