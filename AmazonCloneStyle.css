@@ -39,7 +39,7 @@
 .add-first{
     color: #cccccc;
     font-size: 0.85rem;
-    margin-left: 18px;
+    margin-left: 10px;
 }
 /* search box in search bar */
 .add-sec{
@@ -184,10 +184,48 @@
 /* panel option paragraph property define */
 .panel-option p{
     display:inline;
-    margin-left: 17px;
+    margin-left: 13px;
 }
 /* option bar remain or whole properties */
 .panel-option{
 width: 95%;
 font-size: 0.85rem;
 }
+/* start the website main image page naming as hero-section */
+.hero-section{
+    background-image: url("hero.jpg");
+    height: 600px;
+    background-size: cover;
+}
+/* shop section properties */
+.shop-section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: #e2e7e6;
+}
+/* Shop Section boxes design */
+.box{
+    height: 425px;
+    width: 20%;
+    background-color: white;
+    padding: 20px 0px 15px;
+    margin: 15px;
+}
+/* box1 image property */
+.box-img{
+    height: 300px;
+    background-size: cover;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+/* box content property */
+.box-content{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+/* box content paragraph property */
+.box-content p{
+    color: #007185;
+}
+/* Subbox properties */
