@@ -47,9 +47,10 @@
 .nav-search{
     display: flex;
     justify-content: space-evenly;
-    width: 620px;
+    width: 670px;
     height: 40px;
     border-radius: 4px;
+    margin-left: 20px;
 }
 .search-select{
     background-color: #f3f3f3;
@@ -132,4 +133,21 @@
     font-size: 1rem;
     display: flex;
     font-weight: 700;
+}
+.nav-cart i{
+    font-size: 30px;
+}
+.nav-cart {
+    font-size: 0.85rem;
+    font-weight: 700;
+    width: 140px;
+    height: 50px;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+
+}
+.cart-txt{
+    margin-top: 15px;
+    margin-left: 5px;
 }
