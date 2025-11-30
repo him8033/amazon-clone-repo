@@ -1,59 +1,68 @@
 /* set web page default font margin and border */
-*{
+* {
     margin: 0;
     font-family: Arial;
     border: border-box;
 
 }
+
 /* desiging navbar properties */
-.navbar{
+.navbar {
     height: 60px;
-    background-color: #0f1111;
+    background-color: #537c7c;
     color: white;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
 }
+
 /* design logo div height and width */
-.nav-logo{
-   height: 50px;
-   width: 100px;
+.nav-logo {
+    height: 50px;
+    width: 100px;
 }
+
 /* set logo as a background image */
-.logo{
+.logo {
     background-image: url(logo.png);
     background-size: cover;
     height: 50px;
     width: 100%;
 }
+
 /* give the hover border effect property */
-.border{
+.border {
     border: 2px solid transparent;
 
 }
+
 /* hover properties */
-.border:hover{
+.border:hover {
     border: 2px solid white;
 }
+
 /* All select box in search bar  */
-.add-first{
+.add-first {
     color: #cccccc;
     font-size: 0.85rem;
     margin-left: 20px;
 }
+
 /* search box in search bar */
-.add-sec{
+.add-sec {
     font-size: 1rem;
     margin-left: 3px;
 }
+
 /* search icon in search bar */
-.add-icon{
-    display:flex;
+.add-icon {
+    display: flex;
     align-items: center;
     margin-left: 3px;
 }
+
 /* property of search bar */
-.nav-search{
+.nav-search {
     display: flex;
     justify-content: space-evenly;
     width: 750px;
@@ -61,8 +70,9 @@
     border-radius: 4px;
     margin-left: 20px;
 }
+
 /* Select bar properties */
-.search-select{
+.search-select {
     background-color: #f3f3f3;
     width: 50px;
     text-align: center;
@@ -70,16 +80,18 @@
     border-bottom-left-radius: 4px;
     border: none;
 }
+
 /* Input bar properties in search bar */
-.search-input{
+.search-input {
     width: 100%;
     font-size: 1rem;
     border: none;
 }
+
 /* search icon properties in search bar */
-.search-icon{
+.search-icon {
     width: 45px;
-    display:flex;
+    display: flex;
     justify-content: center;
     align-items: center;
     font-size: 1.2rem;
@@ -88,75 +100,87 @@
     border-bottom-right-radius: 4px;
     color: #0f1111;
 }
+
 /* search bar orange hover effect */
-.nav-search:hover{
+.nav-search:hover {
     border: 2px solid orange;
 }
+
 /* flag bar properties */
-.nav-flag{
+.nav-flag {
     display: flex;
     height: 50px;
     width: 80px;
     align-items: center;
     justify-content: center;
 }
+
 /* flag icon set as background image */
-.flag{
+.flag {
     background-image: url(flag.png);
     background-size: cover;
     width: 20px;
     height: 15px;
 }
+
 /* language select bar property */
-.lang-select{
+.lang-select {
     background-color: #0f1111;
     color: white;
 }
+
 /* Sign in properties */
-.nav-signin{
+.nav-signin {
     height: 50px;
     width: 170px;
     align-content: center;
     justify-content: center;
-    
+
 }
+
 /* sign in text size set */
-.signin{
-  font-size: 0.90rem;
-  margin-left: 10px;
+.signin {
+    font-size: 0.90rem;
+    margin-left: 10px;
 }
+
 /* account selection properties */
-.account-select{
+.account-select {
     background-color: #0f1111;
     color: white;
     font-size: 1rem;
     font-weight: 700;
     margin-left: 10px;
 }
+
 /* Return bar div  properties */
-.nav-return{
+.nav-return {
     justify-content: center;
     align-content: center;
     height: 50px;
     width: 85px;
 }
+
 /* return txt size set */
-.return{
+.return {
     font-size: 0.70rem;
     margin-left: 10px;
 }
+
 /* order text property set */
-.order{
+.order {
     font-size: 1rem;
     display: flex;
     font-weight: 700;
     margin-left: 10px;
 }
+
 /* cart icon size set */
-.nav-cart i{
+.nav-cart i {
     font-size: 30px;
     margin-left: 10px;
 }
+
 /* cart bar div properties */
 .nav-cart {
     font-size: 0.85rem;
@@ -167,13 +191,15 @@
     align-items: center;
 
 }
+
 /* Cart text margin set */
-.cart-txt{
+.cart-txt {
     margin-top: 15px;
     margin-left: 5px;
 }
+
 /* panel Section Properties */
-.panel{
+.panel {
     display: flex;
     height: 40px;
     background-color: #222f3d;
@@ -181,63 +207,84 @@
     align-items: center;
     justify-content: space-evenly;
 }
+
 /* panel option paragraph property define */
-.panel-option p{
-    display:inline;
+.panel-option p {
+    display: inline;
     margin-left: 13px;
 }
+
 /* option bar remain or whole properties */
-.panel-option{
-width: 95%;
-font-size: 0.85rem;
+.panel-option {
+    width: 95%;
+    font-size: 0.85rem;
 }
+
 /* start the website main image page naming as hero-section */
-.hero-section{
+.front-image {
     background-image: url("hero.jpg");
     height: 600px;
     background-size: cover;
+
 }
-/* shop section properties */
-.shop-section{
+
+.front-box {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
     background-color: #e2e7e6;
+    background-image: inherit;
+    padding-top: 230px;
 }
+
+/* shop section properties */
+.shop-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: #e2e7e6;
+    margin-top: 0px;
+}
+
 /* Shop Section boxes design */
-.box{
-    height: 425px;
+.box {
+    height: 400px;
     width: 20%;
     background-color: white;
     padding: 20px 0px 15px;
     margin: 15px;
 }
+
 /* box1 image property */
-.box-img{
+.box-img {
     height: 300px;
     background-size: cover;
     margin-top: 1rem;
     margin-bottom: 1rem;
 }
+
 /* box content property */
-.box-content{
+.box-content {
     margin-left: 10px;
     margin-right: 10px;
 }
+
 /* box content paragraph property */
-.box-content p{
+.box-content p {
     color: #007185;
 }
+
 /* Subbox properties */
 
 
 
 
 /* Footer panel1 properties */
-.footer{
+.footer {
     margin-top: 15px;
 }
-.foot-panel1{
+
+.foot-panel1 {
     background-color: #37475a;
     color: white;
     height: 50px;
@@ -246,22 +293,26 @@ font-size: 0.85rem;
     align-items: center;
     font-size: 0.85rem;
 }
-.foot-panel2{
+
+.foot-panel2 {
     background-color: #222f3d;
     color: white;
     display: flex;
     justify-content: space-evenly;
 }
-ul{
+
+ul {
     margin-top: 20px;
 }
-ul a{
+
+ul a {
     display: block;
     font-size: 0.85rem;
     margin-top: 10px;
     color: #dddddd;
 }
-.foot-panel3{
+
+.foot-panel3 {
     background-color: #222f3d;
     color: white;
     border-top: 0.5px solid white;
@@ -270,30 +321,36 @@ ul a{
     justify-content: center;
     align-items: center;
 }
-.logo{
+
+.logo {
     background-image: url(logo.png);
     background-size: cover;
     height: 50px;
     width: 100px;
 }
-.select-lang{
+
+.select-lang {
     margin-left: 50px;
 }
-.lang{
-   font-size: 13px;
-   color: #cccccc;
-   padding: 0px 8px;
+
+.lang {
+    font-size: 13px;
+    color: #cccccc;
+    padding: 0px 8px;
 }
-.foot-panel4{
+
+.foot-panel4 {
     background-color: #0f1111;
     color: white;
     height: 80px;
     font-size: 0.7rem;
-    text-align: center;  
+    text-align: center;
 }
-.pages{
+
+.pages {
     padding-top: 25px;
 }
-.copyright{
+
+.copyright {
     padding-top: 5px;
 }
